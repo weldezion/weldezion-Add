@@ -9,6 +9,7 @@ public class Application {
     public static void main(String[] args) {
         Lab add = new Lab();
         System.out.println("Currently, the lab produces the result of 9 + 10 as:");
+        
         int result = add.addNumbers(9,10);
         System.out.println(result);
     }
